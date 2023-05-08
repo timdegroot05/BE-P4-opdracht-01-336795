@@ -13,7 +13,7 @@ class Database
             $this->dbHandler = new PDO($conn, DB_USER, DB_PASS);
 
             if ($this->dbHandler) {
-                // echo "Verbinding met de database is gelukt";
+                
             } else {
                 echo "Interne server-error";
             }
